@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.6rem;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 12px 15px;
+  border-radius: 8px 0 0 8px;
+  border: none;
+  font-size: 1.1rem;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus {
+  box-shadow: 0 0 8px #ffd700;
+  background-color: #f0e68c10;
+  color: #333;
+}
+
+button#btnAdicionar {
+  padding: 12px 22px;
+  border: none;
+  background-color: #ffd700;
+  color: #333;
+  font-weight: 700;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button#btnAdicionar:hover {
+  background-color: #e6c200;
+}
+
+#mensagemErro {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 10px;
+  height: 22px;
+  color: #ff6b6b;
+}
+
+ul#listaParticipantes {
+  list-style: none;
+  padding-left: 0;
+  max-height: 220px;
+  overflow-y: auto;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  background: rgba(255 255 255 / 0.15);
+  box-shadow: inset 0 0 8px rgba(0,0,0,0.2);
+}
+
+ul#listaParticipantes li {
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255 255 255 / 0.3);
+  transition: background 0.3s ease;
+}
+
+ul#listaParticipantes li:hover {
+  background: rgba(255 255 255 / 0.1);
+}
+
+.remover-btn {
+  background-color: #ff4c4c;
+  border: none;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.remover-btn:hover {
+  background-color: #cc0000;
+}
+
+.btn-sortear {
+  display: block;
+  width: 100%;
+  padding: 16px 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 14px;
+  background: #ffb347;
+  background: linear-gradient(45deg, #ffb347, #ffcc33);
+  color: #333;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(255, 179, 71, 0.6);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-sortear:hover {
+  background: linear-gradient(45deg, #ffcc33, #ffb347);
+  box-shadow: 0 8px 22px rgba(255, 204, 51, 0.8);
+}
+
+.resultado {
+  margin-top: 30px;
+  background: rgba(255 255 255 / 0.25);
+  padding: 20px 25px;
+  border-radius: 18px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.resultado h2 {
+  margin-top: 0;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  font-weight: 800;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.resultado p {
+  font-size: 1.3rem;
+  margin: 10px 0;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
+}
+
+.contador {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 1.1rem;
+  color: #fff;
+  background: rgba(255,255,255,0.1);
+  padding: 8px 14px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+}
