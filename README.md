@@ -34,4 +34,4 @@ Esse projeto foi desenvolvido como parte do curso:
 
 ## 📄 Licença
 
-* Esse projeto está sob a licença MIT — acesse os detalhes em [LICENSE.md](https://github.com/seu-usuario/amigo-secreto/blob/main/LICENSE.md).
+* Esse projeto está sob a licença MIT — acesse os detalhes em [LICENSE.md](https://github.com/angelosilvanno/amigosecreto?tab=MIT-1-ov-file).
