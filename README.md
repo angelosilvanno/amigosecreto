@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido como parte do curso:
 
 ## 👷 Autor
 
-* **Ângelo Silvano** - *Função realizada* - [nome_do_dev](https://github.com/link_do_Perfil)
+* **Ângelo Silvano** - *Web Developer* - [angelosilvanno](https://github.com/angelosilvanno)
 
 ## 📄 Licença
 
