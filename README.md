@@ -30,8 +30,8 @@ Esse projeto foi desenvolvido como parte do curso:
 
 ## 👷 Autor
 
-* **Ângelo Silvano** - *Função realizada* - [nome_do_dev](https://github.com/link_do_Perfil)
+* **Ângelo Silvano** - *Web Developer* - [angelosilvanno](https://github.com/angelosilvanno)
 
 ## 📄 Licença
 
-* Esse projeto está sob a licença MIT — acesse os detalhes em [LICENSE.md](https://github.com/seu-usuario/amigo-secreto/blob/main/LICENSE.md).
+* Esse projeto está sob a licença MIT — acesse os detalhes em [LICENSE.md](https://github.com/angelosilvanno/amigosecreto?tab=MIT-1-ov-file).
