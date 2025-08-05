@@ -36,6 +36,7 @@ function atualizarContador() {
   contadorParticipantes.textContent = participantes.length;
 }
 
+
 function sortear() {
   if (participantes.length < 3) {
     mostrarMensagemErro('Adicione pelo menos 3 participantes para sortear.');
@@ -56,6 +57,8 @@ function sortear() {
     resultado[p] = escolha;
     sorteados.splice(sorteados.indexOf(escolha), 1);
   }
+
+  console.log('🔍 Resultado do sorteio:', resultado);
 
   mostrarResultado(resultado);
 }
